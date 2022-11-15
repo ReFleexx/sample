@@ -1,0 +1,93 @@
+
+   .welcome {
+      background-color:silver;
+      color:black;
+      text-align: center;
+   }
+
+   #services {
+      background-color: lightslategray;
+      color: black;
+      text-align: center;
+   }
+
+   .all_news {
+      background-color:dimgrey;
+      color:darkslategray;
+      font-size: 16px;
+      font-style: normal;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   .economics_today {
+      background-color: green;
+      color: lightpink;
+   }
+
+   #dollar_naira {
+      background-color: greenyellow;
+      color: darksalmon;
+   }
+
+   .dollar_info {
+      background-color:chartreuse;
+      color: brown;
+      font-size: 16px;
+      font-style: normal;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   .dollar_info2 {
+      background-color:yellowgreen;
+      color: brown;
+      font-size: 16px;
+      font-style: normal;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   .politics_today {
+      background-color: blue;
+      color: gold;
+   }
+
+   #atiku_pdp {
+      background-color: deepskyblue;
+      color: goldenrod;
+   }
+
+   .atiku_info {
+      background-color: cyan;
+      color: brown;
+      font-size: 16px;
+      font-style: normal;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   .sports_today {
+      background-color: red;
+      color: navy;
+   }
+
+   #neymar_chelsea {
+      background-color: orangered;
+      color: blueviolet;
+   }
+
+   .neymar_info {
+      background-color:deeppink;
+      color:cornflowerblue;
+      font-size: 16px;
+      font-style: normal;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: right;
+   }
+
+   .neymar_info2 {
+      background-color:fuchsia;
+      color:brown;
+      font-size: 16px;
+      font-style: normal;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: left;
+   }
+

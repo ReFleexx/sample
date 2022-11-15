@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <style>
+        .tab1, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+
+        .tab1 {
+           background-color: aqua;
+        }
+
+        .tab2, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+
+        .tab2 {
+           background-color: darkkhaki;
+           float: right; 
+        }
+
+        .tab3, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;  
+        }
+
+        .tab3 {
+           background-color: lightcoral;
+        }
+        </style>
+
+</head>
+<body>
+
+    <a href="index.html">Home</a> <br><br>
+    
+        <table class="tab1">
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email Address</th>
+            </tr>
+            <tr>
+             <td>Flexy</td>
+             <td>Michael</td>
+             <td>flexy@mail.com</td>
+            </tr>
+            <tr>
+              <td>Feyi</td>
+              <td>Sayo</td>
+              <td>feyi@mail.com</td>
+            </tr>
+            <tr>
+               <td>Taiwo</td>
+               <td>Special</td>
+               <td>taiwo@mail.com</td>
+            </tr>
+          </table> <br><hr>
+
+          <table class="tab2">
+            <caption>What We Do</caption>
+            <tr>
+              <th></th>
+              <th scope="col">Name</th>
+              <th scope="col">Work Description</th>
+            </tr>
+          
+            <tr>
+              <td>1</td>
+              <td>Flexy</td>
+              <td>FrontEnd Deve</td>
+            </tr>
+          
+            <tr>
+              <td>2</td>
+              <td>Feyi</td>
+              <td>BackEnd Deve</td>
+            </tr>
+              
+            <tr>
+              <td>3</td>
+              <td>Taiwo</td>
+              <td>UI/UX</td>
+            </tr>
+          </table>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ex distinctio ipsa vitae, laboriosam ipsam harum illum eaque dolorem provident perspiciatis earum debitis, nostrum nemo tenetur! Veritatis temporibus quam rem!</p> <br><hr>
+
+          <table class="tab3">
+            <tr>
+              <th>Name</th>
+              <th>Subject</th>
+              <th>Experience</th>
+            </tr>
+            <tr>
+              <td rowspan = "2">Flexy</td>
+              <td>Advanced Web</td>
+              <td>2 years</td>
+            </tr>
+            <tr>
+              <td>Operating Syatem</td>
+              <td>2.3 years</td>
+            </tr>
+                <tr>
+              <td rowspan = "2">Feyi</td>
+              <td>Advanced Web</td>
+              <td>2.5 years</td>
+            </tr>
+            <tr>
+              <td>Operating Syatem</td>
+              <td>1.5 years</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Taiwo</td>
+              <td>Advanced Web</td>
+              <td>2 years</td>
+            </tr>
+            <tr>
+              <td>Operating Syatem</td>
+              <td>1.5 years</td>  
+            </tr> 
+            <tr>
+              <td></td>
+              <td colspan="3">Total Experience: 11.6 years</td>
+            </tr>
+          </table>
+
+        
+</body>
+</html>
